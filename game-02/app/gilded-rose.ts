@@ -26,8 +26,7 @@ export class GildedRose {
             const condition3 = name === 'Conjured';
             const condition4 = condition1 && condition2 && sellIn === 0;
 
-            sellIn -= 1;
-
+            if (sellIn != 0) sellIn -= 1;
             if (condition1 && condition2) {
                 quality -= 1;
             }
