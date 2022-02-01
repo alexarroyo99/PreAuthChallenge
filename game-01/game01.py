@@ -1,7 +1,3 @@
-
-from traceback import print_tb
-
-
 def firts_sum(my_set, n):
     set_numbers = "There are no numbers that sums n"
     for x in my_set:
